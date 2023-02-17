@@ -1,3 +1,13 @@
+
+└── USTR-2015-0010
+    |____ corpus
+    	all of the text files
+	
+    |____ raw files
+        all of the raw pdfs
+	
+    
+
 # Example Structure with 5 folders
 
 ```
