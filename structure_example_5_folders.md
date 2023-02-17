@@ -1,5 +1,41 @@
 # Example Structure with 5 folders
 
+Bucket Structure Option One
+```
+mirrulation_2015_USTR
+mirrulation_2015_FDA
+mirrulation_2015_CMS
+```
+
+Bucket Structure Option Two
+```
+mirrulation_USTR_2015
+mirrulation_USTR_2016
+mirrulation_USTR_2017
+```
+
+Within Bucket Structure
+```
+USTR-2015-0010
+├── attachments
+│   ├── USTR-2015-0010-0001
+│   |   └── USTR-2015-0010-0001_content.pdf
+│   ├── USTR-2015-0010-0001
+│   |   └── USTR-2015-0010-0001_content.pdf
+│   ├─ USTR-2015-0010-0001
+│       └── USTR-2015-0010-0001_content.pdf
+├── comments
+├── documents
+├── extracted_text
+│   ├── pdftotext
+│   │   ├── USTR-2015-0010-0001
+│   │      └── USTR-2015-0010-0001_content.pdf	
+│   ├── pdftotext
+│       ├── USTR-2015-0010-0001
+│          └── USTR-2015-0010-0001_content.pdf
+
+```
+
 ```
 data
 ├── attachments
@@ -35,7 +71,7 @@ data
 ├── dockets
 │   └── USTR
 │       └── USTR-2015-0010
-│           └── USTR-2015-0010.json
+│           └── USTR-2015-0010.json 
 ├── documents
 │   └── USTR
 │       └── USTR-2015-0010
