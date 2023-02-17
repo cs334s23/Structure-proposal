@@ -1,4 +1,4 @@
-# Example Structure
+# Example Structure with 7 folders
 
 ```
 data
@@ -81,4 +81,9 @@ data
 ```
 # Explanation
 
-* Goes here
+* There are 7 core folders
+	*  Dockets, documents, comments, attachments_documents, attachments_comments, attachments_documents_extracted, attachmennts_comments_extracted
+	*  Each folder starts with an agency such as "USTR", and follows with a docketId such as "USTR-2015-0010"
+	*  In attachments_comments, after a docketId, an id of an attachment follows such as "USTR-2015-0010-0002", which contains the pdf attacmennt of the comment that has the same id
+		*  To associate which comment goes with that attachment, you would look into the comments directory and find the folder with the same id "USTR-2015-0010-0002"
+	*  attachments_documents follows the same structure as attachments_comments, but contains the various attachments that can be associated with a document 
